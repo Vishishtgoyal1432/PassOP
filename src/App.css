@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(
+    95% 120% at 50% 0%,
+    #000 40%,
+    #63e 90%
+  );
+}
+@media (max-width: 768px) {
+  body {
+    background: radial-gradient(
+      95% 130% at 50% 0%,
+      #000 40%,
+      #63e 90%
+    );
+  }
+}
